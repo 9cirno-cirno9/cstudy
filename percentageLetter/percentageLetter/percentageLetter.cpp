@@ -13,3 +13,4 @@ int percentageLetter(char* s, char letter)
     }
     return(100 * y / r);
 }
+//asdasd
