@@ -10,4 +10,3 @@ int climbStairs(int n)
     return d[n - 1];
     free(d);
 }
-//66
