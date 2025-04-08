@@ -32,4 +32,3 @@ int minFallingPathSum(int** matrix, int matrixSize, int* matrixColSize)
     }
     return minaa;
 }
-//ss
