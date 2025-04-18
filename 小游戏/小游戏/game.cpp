@@ -80,11 +80,11 @@ void game::guessnum()
 		cout << "剩余"<<life<<"次机会" <<endl;
 	}
 	cout << "杂鱼~猜不对数字的杂鱼~" << endl;
-	cout << "你的电脑将在60秒内关机，输入我是猪，取消关机，并获得5次机会" << endl;
+	cout << "你的电脑将在60秒内关机，输入iampig，取消关机，并获得5次机会" << endl;
 	system("shutdown -s -t 60");
 
 	cin >> pig;
-	if (pig == "我是猪")
+	if (pig == "iampig")
 	{
 		system("shutdown -a");
 		life = 5;
