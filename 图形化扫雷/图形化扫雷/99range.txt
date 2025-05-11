@@ -1,0 +1,5 @@
+baka    2
+baka    2
+doro    33
+baka    37
+doro    9999
